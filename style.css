@@ -20,6 +20,10 @@
 	--ubuntu: 'Ubuntu', sans-serif;
 }
 
+nav {
+	background-color: pink;
+}
+
 body {
 	font-size: 16px;
 	display: flex;
