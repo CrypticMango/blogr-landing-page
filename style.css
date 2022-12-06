@@ -15,6 +15,9 @@
 	--very-dark-gray-blue: hsl(237, 17%, 21%);
 	--very-dark-desaturated-blue:  hsl(237, 23%, 32%);
 
+	/*fonts*/
+	--overpass: 'Overpass', sans-serif;
+	--ubuntu: 'Ubuntu', sans-serif;
 }
 
 body {
