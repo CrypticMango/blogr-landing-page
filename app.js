@@ -7,8 +7,12 @@ close.addEventListener("click", closeMenu);
 
 function openMenu() {
     nav.style.display = "block";
+    close.style.display = "block"
+    burger.style.display = "none"
 }
 
 function closeMenu() {
     nav.style.display = "none"
+    close.style.display = "none"
+    burger.style.display = "block"
 }
