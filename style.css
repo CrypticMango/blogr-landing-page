@@ -64,6 +64,11 @@ li {
 	background-color: var(--white);
 	margin: 0px 20px;
 	padding: 15px 0px;
+	display: none;
+	position: absolute;
+	top: 120px;
+	width: 90%;
+	border-radius: 7px;
 }
 
 .top-editor {
