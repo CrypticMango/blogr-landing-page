@@ -20,8 +20,12 @@
 	--ubuntu: 'Ubuntu', sans-serif;
 }
 
-nav {
-	background-color: pink;
+header {
+	background-image: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+	background-position: 35% 35%;
+	background-size: 1200px;
+	height: 520px;
+	border-radius: 0px 0px 0px 100px;
 }
 
 body {
@@ -32,8 +36,28 @@ body {
 	align-items: center;
 	margin: 0;
 	min-height: 100vh;
+	text-align: center;
 }
 
+main {
+	margin: 0px 15px;
+}
+
+.top-editor {
+	width: 100%;
+}
+
+.iphones {
+	width: 90%;
+}
+
+.laptop {
+	width: 60%;
+}
+
+footer {
+	background-color: var(--very-dark-black-blue);
+}
 
 .attribution {
 	font-size: 11px;
