@@ -20,12 +20,17 @@
 	--ubuntu: 'Ubuntu', sans-serif;
 }
 
+html, body {
+	overflow-x: hidden;
+}
+
 header {
 	background-image: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
 	background-position: 35% 35%;
 	background-size: 1200px;
 	height: 560px;
 	border-radius: 0px 0px 0px 100px;
+	margin-bottom: 70px;
 }
 
 .intro-blurb {
@@ -52,16 +57,22 @@ h1 {
 	color: var(--white);
 }
 
+h2 {
+	font-size: 25px;
+	margin-top: 40px;
+	color: var(--very-dark-blue);
+	padding: 0px 60px;
+}
 
+p {
+	line-height: 1.5rem;
+	padding: 0px 55px;
+}
 nav {
 	margin: 50px 20px 0px 20px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
-
-main {
-	margin: 0px 15px;
 }
 
 ul {
@@ -147,6 +158,8 @@ details[open] > summary::after {
 	border-radius: 7px;
 }
 
+/*header section mobile*/
+
 .start-b, .learn-b {
 	background-color: white;
 	border-radius: 50px;
@@ -166,16 +179,35 @@ details[open] > summary::after {
 	display: none;
 }
 
+/*end of header section*/
+
 .top-editor {
-	width: 100%;
+
+	margin-top: 25px;
 }
 
 .iphones {
-	width: 90%;
+	margin-top: 60px;
+	width: 95%;
+}
+
+.state-container {
+	position: relative;
+	left: 15px;
+	background: url(/images/bg-pattern-circles.svg), linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+	color: white;
+	padding-bottom: 80px;
+	border-radius: 0px 90px 0px 90px;
+	width: 375px;
+}
+
+.state-of-art {
+	font-size: 35px;
+	color: white;
 }
 
 .laptop {
-	width: 60%;
+	width: 25%;
 }
 
 footer {
