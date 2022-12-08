@@ -212,12 +212,38 @@ details[open] > summary::after {
 
 footer {
 	background-color: var(--very-dark-black-blue);
+	width: 100%;
+	border-radius: 0px 60px 0px 0px;
+	padding-top: 60px;
+}
+
+footer li {
+	color: white;
+	font-weight: 100;
+}
+
+.logo-bottom {
+	margin-bottom: 30px;
+}
+
+.footer-title {
+	color: white;
+	font-weight: 600;
+	margin-bottom: 30px;
 }
 
 .attribution {
 	font-size: 11px;
 	text-align: center;
+	color: white;
+	margin-bottom: 30px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+.fa-brands {
+	font-size: 30px;
+	margin: 20px;
+	color: white;
 }
