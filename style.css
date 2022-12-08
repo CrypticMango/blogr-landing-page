@@ -76,6 +76,11 @@ li {
 	color: var(--very-dark-desaturated-blue);
 }
 
+hr {
+	width: 86.7%;
+	border: 1px solid var(--grayish-blue);
+}
+
 /*navigation mobile start*/
 
 .navigation {
@@ -96,6 +101,7 @@ summary {
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 20px;
+	color: var(--very-dark-blue);
 }
 
 details > summary {
@@ -108,7 +114,30 @@ summary::after {
 
 details[open] > summary::after {
 	content: url(/images/icon-arrow-dark.svg) rotate(0.6turn);
-	
+}
+
+.login {
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--very-dark-blue);
+	text-decoration: none;
+}
+
+.login-container {
+	margin-top: 25px;
+}
+
+.sign-up {
+	background: linear-gradient(to right,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+	padding: 15px 40px;
+	border-radius: 30px;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.signup-container {
+	margin: 25px 0px;
 }
 
 .secondary-menu {
