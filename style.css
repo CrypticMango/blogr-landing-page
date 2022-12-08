@@ -207,7 +207,8 @@ details[open] > summary::after {
 }
 
 .laptop {
-	width: 25%;
+	margin-top: 60px;
+	width: 65%;
 }
 
 footer {
