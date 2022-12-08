@@ -72,15 +72,49 @@ ul {
 
 li {
 	list-style: none;
+	margin-bottom: 15px;
+	color: var(--very-dark-desaturated-blue);
 }
+
+/*navigation mobile start*/
 
 .navigation {
 	background-color: var(--white);
-	padding: 15px 0px;
+	padding: 20px 0px;
 	display: none;
 	position: absolute;
 	top: 120px;
 	width: 90%;
+	border-radius: 7px;
+}
+
+details {
+	margin-bottom: 10px;
+}
+
+summary {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+details > summary {
+	list-style: none;
+}
+
+summary::after {
+	content: url(/images/icon-arrow-dark.svg);
+}
+
+details[open] > summary::after {
+	content: url(/images/icon-arrow-dark.svg) rotate(0.6turn);
+	
+}
+
+.secondary-menu {
+	background-color: hsl(240, 11%, 95%);
+	margin: 0px 20px 0px 20px;
+	padding: 20px 0px 5px 0px;
 	border-radius: 7px;
 }
 
