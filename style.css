@@ -277,6 +277,10 @@ footer a {
 		display: none;
 	}
 
+	.iphones-dt {
+		display: block;
+	}
+
 	.section-one {
 		display: flex;
 		flex-direction: row-reverse;
