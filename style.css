@@ -58,12 +58,12 @@ h2 {
 	font-size: 25px;
 	margin-top: 40px;
 	color: var(--very-dark-blue);
-	padding: 0px 60px;
+	padding: 0px 50px;
 }
 
 p {
 	line-height: 1.5rem;
-	padding: 0px 55px;
+	padding: 0px 40px;
 }
 nav {
 	margin: 50px 20px 0px 20px;
@@ -86,7 +86,7 @@ li {
 
 hr {
 	width: 86.7%;
-	border: 1px solid var(--grayish-blue);
+	border: 1px solid hsla(240, 3%, 79%, 0.548);
 }
 
 /*navigation mobile start*/
@@ -132,7 +132,7 @@ details[open] > summary::after {
 }
 
 .login-container {
-	margin-top: 25px;
+	margin-top: 35px;
 }
 
 .sign-up {
@@ -149,12 +149,12 @@ details[open] > summary::after {
 }
 
 .signup-container {
-	margin: 25px 0px;
+	margin: 35px 0px;
 }
 
 .secondary-menu {
 	background-color: hsl(240, 11%, 95%);
-	margin: 0px 20px 0px 20px;
+	margin: 0px 20px 20px 20px;
 	padding: 20px 0px 5px 0px;
 	border-radius: 7px;
 }
@@ -175,6 +175,7 @@ details[open] > summary::after {
 .learn-b {
 	background-color: transparent;
 	color: white;
+	margin-left: 15px;
 }
 
 .close-b {
@@ -189,18 +190,21 @@ details[open] > summary::after {
 }
 
 .iphones {
+	position: relative;
+	width: 370px;
 	margin-top: 60px;
-	width: 95%;
 }
 
 .state-container {
-	background: url(/images/bg-pattern-circles.svg) no-repeat,
+	background: url(/images/bg-pattern-circles.svg) -110px -230px no-repeat,
 		linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-	background-size: 100px;
+	background-size: 600px;
 	color: white;
-	padding-bottom: 80px;
+	padding: 200px 0px 80px 0px;
 	border-radius: 0px 90px 0px 90px;
 	width: 100%;
+	margin-top: -230px;
+	
 }
 
 .state-of-art {
@@ -210,7 +214,7 @@ details[open] > summary::after {
 
 .laptop {
 	margin-top: 60px;
-	width: 65%;
+	width: 100%;
 }
 
 footer {
@@ -218,21 +222,21 @@ footer {
 	width: 100%;
 	border-radius: 0px 60px 0px 0px;
 	padding-top: 60px;
+	margin-top: 100px;
+	font-family: var(--ubuntu);
 }
 
-footer li {
-	color: white;
+footer a {
+	color: var(--grayish-blue);
+	text-decoration: none;
 	font-weight: 100;
-}
-
-.logo-bottom {
-	margin-bottom: 30px;
 }
 
 .footer-title {
 	color: white;
 	font-weight: 600;
 	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 .attribution {
@@ -240,6 +244,7 @@ footer li {
 	text-align: center;
 	color: white;
 	margin-bottom: 30px;
+	margin-top: 50px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
