@@ -81,7 +81,6 @@ ul {
 li {
 	list-style: none;
 	margin-bottom: 15px;
-	color: var(--very-dark-desaturated-blue);
 }
 
 hr {
@@ -124,6 +123,11 @@ details[open] > summary::after {
 	content: url(/images/icon-arrow-dark.svg) rotate(0.6turn);
 }
 
+.navigation a {
+	text-decoration: none;
+	color: var(--very-dark-desaturated-blue);
+}
+
 .login {
 	font-size: 18px;
 	font-weight: 600;
@@ -143,7 +147,7 @@ details[open] > summary::after {
 	);
 	padding: 15px 40px;
 	border-radius: 30px;
-	color: white;
+	color: white !important;
 	text-decoration: none;
 	font-weight: 600;
 }
@@ -254,4 +258,49 @@ footer a {
 	font-size: 30px;
 	margin: 20px;
 	color: white;
+}
+
+@media (min-width: 1440px) {
+	body {
+		max-width: 1440px;
+	}
+
+	header {
+		width: 100%;
+	}
+
+	.iphones {
+		display: none;
+	}
+
+	.section-one {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.state-container {
+		display: flex;
+		margin-top: 100px;
+	}
+
+	.section-three {
+		display: flex;
+	}
+
+	.footer-title {
+		padding: 0;
+	}
+
+	.logo-bottom {
+		margin-top: 50px;
+	}
+
+	.bottom-section {
+		text-align: left;
+		display: flex;
+		align-items:flex-start;
+		justify-content: space-between;
+		margin: 0px 350px 0px 150px;
+	}
+
 }
