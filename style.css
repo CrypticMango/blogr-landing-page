@@ -1,10 +1,10 @@
 :root {
 	--light-red: hsl(356, 100%, 66%); /*cta text*/
 	--very-light-red: hsl(355, 100%, 74%); /*cta hover background*/
-	--very-dark-blue:  hsl(208, 49%, 24%); /*headings*/
+	--very-dark-blue: hsl(208, 49%, 24%); /*headings*/
 	--white: hsl(0, 0%, 100%); /*text*/
 	--grayish-blue: hsl(240, 2%, 79%); /*footer text*/
-	--very-dark-grayish-blue:  hsl(207, 13%, 34%); /*body copy*/
+	--very-dark-grayish-blue: hsl(207, 13%, 34%); /*body copy*/
 	--very-dark-black-blue: hsl(240, 10%, 16%); /*footer background*/
 
 	/*background gradient intro/CTA mobile nav*/
@@ -13,19 +13,16 @@
 
 	/*background gradient body*/
 	--very-dark-gray-blue: hsl(237, 17%, 21%);
-	--very-dark-desaturated-blue:  hsl(237, 23%, 32%);
+	--very-dark-desaturated-blue: hsl(237, 23%, 32%);
 
 	/*fonts*/
-	--overpass: 'Overpass', sans-serif;
-	--ubuntu: 'Ubuntu', sans-serif;
-}
-
-html, body {
-	overflow-x: hidden;
+	--overpass: "Overpass", sans-serif;
+	--ubuntu: "Ubuntu", sans-serif;
 }
 
 header {
-	background-image: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+	background-image: url(/images/bg-pattern-intro-mobile.svg),
+		linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
 	background-position: 35% 35%;
 	background-size: 1200px;
 	height: 560px;
@@ -139,7 +136,11 @@ details[open] > summary::after {
 }
 
 .sign-up {
-	background: linear-gradient(to right,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+	background: linear-gradient(
+		to right,
+		hsl(13, 100%, 72%),
+		hsl(353, 100%, 62%)
+	);
 	padding: 15px 40px;
 	border-radius: 30px;
 	color: white;
@@ -160,7 +161,8 @@ details[open] > summary::after {
 
 /*header section mobile*/
 
-.start-b, .learn-b {
+.start-b,
+.learn-b {
 	background-color: white;
 	border-radius: 50px;
 	padding: 13px 15px;
@@ -182,7 +184,7 @@ details[open] > summary::after {
 /*end of header section*/
 
 .top-editor {
-
+	width: 370px;
 	margin-top: 25px;
 }
 
@@ -192,13 +194,13 @@ details[open] > summary::after {
 }
 
 .state-container {
-	position: relative;
-	left: 15px;
-	background: url(/images/bg-pattern-circles.svg), linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+	background: url(/images/bg-pattern-circles.svg) no-repeat,
+		linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+	background-size: 100px;
 	color: white;
 	padding-bottom: 80px;
 	border-radius: 0px 90px 0px 90px;
-	width: 375px;
+	width: 100%;
 }
 
 .state-of-art {
