@@ -88,6 +88,10 @@ hr {
 	border: 1px solid hsla(240, 3%, 79%, 0.548);
 }
 
+.iphones-dt {
+	display: none;
+}
+
 /*navigation mobile start*/
 
 .navigation {
