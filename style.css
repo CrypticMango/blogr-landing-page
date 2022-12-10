@@ -274,6 +274,30 @@ footer a {
 		width: 100%;
 	}
 
+	/*desktop nav start*/
+
+	.desktop-nav {
+		display: flex;
+	}
+
+	.sub-nav button:hover {
+		cursor: pointer;
+	}
+
+	.dt-nav-buttons {
+		margin-left: 350px;
+	}
+
+	.subnav-content {
+		display: none;
+	}
+
+	.that-burger-b {
+		display: none;
+	}
+
+	/*desktop nav end*/
+
 	.iphones {
 		display: none;
 	}
