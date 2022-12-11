@@ -94,6 +94,10 @@ hr {
 
 /*navigation mobile start*/
 
+.desktop-nav {
+	display: none;
+}
+
 .navigation {
 	background-color: var(--white);
 	padding: 20px 0px;
@@ -273,6 +277,7 @@ footer a {
 	header {
 		width: 100%;
 	}
+	
 
 	/*desktop nav start*/
 
@@ -298,6 +303,46 @@ footer a {
 
 	/*desktop nav end*/
 
+	/*section one desktop start*/
+
+	.section-one {
+		margin: 0px 0px 0px 300px;
+		text-align: left;
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+
+	.section-one p {
+		padding: 0;
+	}
+
+	.section-one h2 {
+		padding: 0;
+	}
+
+	.top-editor {
+		display: none;
+	}
+
+	.dt-editor {
+		position: relative;
+		left: 110px
+	}
+
+	.dt-one-text {
+		width: 498px;
+		margin-right: 0px;
+	}
+
+	.one-top-paragraph {
+		margin-bottom: 80px;
+	}
+
+	/*section one end*/
+
+	/*section two start*/
+
 	.iphones {
 		display: none;
 	}
@@ -306,10 +351,6 @@ footer a {
 		display: block;
 	}
 
-	.section-one {
-		display: flex;
-		flex-direction: row-reverse;
-	}
 
 	.state-container {
 		display: flex;
