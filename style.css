@@ -405,7 +405,6 @@ footer a {
 
 	.section-three p {
 		width: 498px;
-		
 	}
 
 	.paragraph-one {
@@ -428,4 +427,12 @@ footer a {
 		margin: 0px 350px 0px 150px;
 	}
 
+	.bottom-section p {
+		position: relative;
+		left: 0px;
+	}
+
+	.attribution {
+		margin-top: 100px;
+	}
 }
