@@ -319,6 +319,8 @@ footer a {
 
 	.section-one p {
 		padding: 0;
+		position: relative;
+		left: 0px;
 	}
 
 	.section-one h2 {
@@ -353,11 +355,26 @@ footer a {
 
 	.iphones-dt {
 		display: block;
+		margin-left: 50px;
+		margin-top: 50px;
 	}
 
 	.state-container {
 		display: flex;
-		margin-top: 100px;
+		align-items: center;
+		margin-top: 60px;
+		margin-left: 150px;
+		height: 400px;
+		width: 1422px;
+		padding: 0px;
+		background-size: 1000px;
+		background-position: -215px -540px, 0px 0px;
+	}
+
+	.state-container p {
+		text-align: left;
+		width: 490px;
+		padding-left: 170px;
 	}
 
 	/*section three start*/
