@@ -229,6 +229,10 @@ details[open] > summary::after {
 	width: 100%;
 }
 
+.dt-laptop {
+	display: none;
+}
+
 footer {
 	background-color: var(--very-dark-black-blue);
 	width: 100%;
@@ -351,14 +355,44 @@ footer a {
 		display: block;
 	}
 
-
 	.state-container {
 		display: flex;
 		margin-top: 100px;
 	}
 
+	/*section three start*/
+
+	.laptop {
+		display: none;
+	}
+
+	.dt-laptop {
+		display: block;
+		position:relative;
+		left: -125px;
+	}
+
 	.section-three {
-		display: flex;
+		display: flex; 
+		align-items: center;
+		margin-top: 90px;
+		margin-right: 100px;
+	}
+
+	.section-three h2, p {
+		text-align: left;
+		padding: 0;
+		position: relative;
+		right: 80px;
+	}
+
+	.section-three p {
+		width: 498px;
+		
+	}
+
+	.paragraph-one {
+		margin-bottom: 80px;
 	}
 
 	.footer-title {
