@@ -337,7 +337,8 @@ footer a {
 
 	.dt-editor {
 		position: relative;
-		left: 110px
+		left: 110px;
+		display: block;
 	}
 
 	.dt-one-text {
