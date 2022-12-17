@@ -21,13 +21,24 @@ function closeMenu() {
 
 //nav menu for desktop
 
-const navButton = document.getElementById("nav-button");
-const navSubmenu = document.getElementById("subnav-content");
+const navButtonOne = document.getElementById("nav-button-one");
+const navButtonTwo = document.getElementById("nav-button-two");
+const navButtonThree = document.getElementById("nav-button-three");
 
-navButton.addEventListener("click", openNav);
+const navSubmenuOne = document.getElementById("subnav-content-one");
+const navSubmenuTwo = document.getElementById("subnav-content-two");
+const navSubmenuThree = document.getElementById("subnav-content-three");
 
-function openNav() {
-    navSubmenu.style.display = "block";
+navButtonOne.addEventListener("click", openNavOne);
+navButtonTwo.addEventListener("click", openNavTwo);
+navButtonThree.addEventListener("click", openNavThree);
+
+function openNavOne() {
+    navSubmenuOne.style.display = "block";
 }
-
-console.log(navSubmenu)
+function openNavTwo() {
+    navSubmenuTwo.style.display = "block";
+}
+function openNavThree() {
+    navSubmenuThree.style.display = "block";
+}
