@@ -201,6 +201,10 @@ details[open] > summary::after {
 	margin-top: 25px;
 }
 
+.dt-editor {
+	display: none;
+}
+
 .iphones {
 	position: relative;
 	width: 370px;
