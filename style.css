@@ -298,6 +298,15 @@ footer a {
 		margin-right: 30px;
 	}
 
+	.nav-title {
+		background-color: unset;
+		border: none;
+		color: white;
+		font-family: var(--ubuntu);
+		font-size: 16px;
+		font-weight: 500;
+	}
+
 	.subnav-content {
 		position: absolute;
 	}
@@ -308,6 +317,7 @@ footer a {
 
 	.desktop-nav {
 		display: flex;
+		align-items: center;
 		margin: 0px 30px;
 	}
 
@@ -317,7 +327,31 @@ footer a {
 
 	.dt-nav-buttons {
 		margin-left: 550px;
-		margin-right: 120px;
+		margin-right: 90px;
+	}
+
+	.login-bt-dt, .sign-up-dt {
+		background-color: unset;
+		color: white;
+		border: none;
+		font-family: var(--ubuntu);
+		font-size: 15px;
+	}
+
+	.login-bt-dt {
+		margin-right: 10px;
+	}
+
+	.sign-up-dt {
+		background-color: white;
+		color: var(--light-red);
+		padding: 12px 25px;
+		border-radius: 30px;
+		font-weight: 600;
+	}
+
+	.dt-nav-buttons button:hover {
+		cursor: pointer;
 	}
 
 	.subnav-content {
