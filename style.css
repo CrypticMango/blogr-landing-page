@@ -291,6 +291,11 @@ footer a {
 		width: 100%;
 	}
 	
+	ul {
+		margin: 0;
+		text-align: left;
+	}
+	
 
 	/*desktop nav start*/
 	
@@ -307,8 +312,27 @@ footer a {
 		font-weight: 500;
 	}
 
+	.nav-title:hover {
+		text-decoration: underline;
+	}
+
 	.subnav-content {
 		position: absolute;
+		top: 100px;
+		background-color: white;
+		padding: 30px 40px 10px 20px;
+		border-radius: 5px;
+		font-size: 15px;
+	}
+
+	.subnav-content a {
+		text-decoration: none;
+		color: black;
+		font-weight: 100;
+	}
+
+	.subnav-content a:hover {
+		font-weight: 600;
 	}
 
 	.logo-top {
