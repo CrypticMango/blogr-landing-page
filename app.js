@@ -20,6 +20,10 @@ function closeMenu() {
 }
 
 //nav menu for desktop
+const arrows = document.querySelectorAll("arrow-down")
+
+arrows.forEach((arrow) => {arrow.addEventListener("click", () => {arrow.style.transform = "rotate(180deg)"})});
+
 
 const navButtonOne = document.getElementById("nav-button-one");
 const navButtonTwo = document.getElementById("nav-button-two");

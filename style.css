@@ -320,7 +320,8 @@ footer a {
 		color: white;
 		font-family: var(--ubuntu);
 		font-size: 16px;
-		font-weight: 500;
+		font-weight: 500; 
+		width: 95px;
 	}
 
 	.nav-title:hover {
@@ -334,6 +335,7 @@ footer a {
 		padding: 30px 40px 10px 20px;
 		border-radius: 5px;
 		font-size: 15px;
+		width: 80px;
 	}
 
 	.subnav-content a {
@@ -345,6 +347,8 @@ footer a {
 	.subnav-content a:hover {
 		font-weight: 600;
 	}
+
+	
 
 	.logo-top {
 		margin-left: 120px;
@@ -361,8 +365,9 @@ footer a {
 	}
 
 	.dt-nav-buttons {
-		margin-left: 550px;
+		margin-left: 400px;
 		margin-right: 90px;
+		width: 200px;
 	}
 
 	.login-bt-dt, .sign-up-dt {
