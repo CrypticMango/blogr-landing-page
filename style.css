@@ -185,6 +185,17 @@ details[open] > summary::after {
 	margin-left: 15px;
 }
 
+.learn-b:hover {
+	background-color: white;
+	color: var(--light-red);
+}
+
+.start-b:hover {
+	background-color: var(--very-light-red);
+	border: 1px solid var(--very-light-red);
+	color: white;
+}
+
 
 .intro-blurb {
 	padding: 0px 50px;
@@ -374,6 +385,10 @@ footer a {
 		font-weight: 600;
 	}
 
+	.sign-up-dt:hover {
+		background-color: var(--very-light-red)
+	}
+
 	.dt-nav-buttons button:hover {
 		cursor: pointer;
 	}
@@ -507,6 +522,10 @@ footer a {
 		align-items:flex-start;
 		justify-content: space-between;
 		margin: 0px 350px 0px 150px;
+	}
+
+	.bottom-section li:hover {
+		text-decoration: underline;
 	}
 
 	.bottom-section p {
