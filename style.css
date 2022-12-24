@@ -321,7 +321,7 @@ footer a {
 		font-family: var(--ubuntu);
 		font-size: 16px;
 		font-weight: 500; 
-		width: 95px;
+		width: 105px;
 	}
 
 	.nav-title:hover {
@@ -347,8 +347,6 @@ footer a {
 	.subnav-content a:hover {
 		font-weight: 600;
 	}
-
-	
 
 	.logo-top {
 		margin-left: 120px;
@@ -405,6 +403,16 @@ footer a {
 	.that-burger-b {
 		display: none;
 	}
+
+	.arrow-down {
+		padding-left: 3px;
+		transition: transform 0.5s;
+  		
+	}
+
+	.active {
+		transform: rotate(180deg);
+	  }
 
 	/*desktop nav end*/
 

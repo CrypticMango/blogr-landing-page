@@ -4,7 +4,6 @@ const burger = document.getElementById("that-burger-b");
 const close = document.getElementById("close-b");
 const nav = document.getElementById("navigation");
 
-
 burger.addEventListener("click", openMenu);
 close.addEventListener("click", closeMenu);
 
@@ -12,7 +11,6 @@ function openMenu() {
     nav.style.display = "block";
     close.style.display = "block";
     burger.style.display = "none";
-   
 }
 
 function closeMenu() {
@@ -22,12 +20,6 @@ function closeMenu() {
 }
 
 //nav menu for desktop
-const arrows = document.querySelectorAll(".arrow-down")
-
-arrows.forEach((arrow) => {arrow.addEventListener("click", () => {
-    arrow.style.transform = "rotate(180deg)";
-})});
-
 
 const navButtonOne = document.getElementById("nav-button-one");
 const navButtonTwo = document.getElementById("nav-button-two");
@@ -58,3 +50,10 @@ subNav.forEach((item) => {item.addEventListener("click", () => {
     navSubmenuTwo.style.display = "none";
     navSubmenuThree.style.display = "none";
 })})
+
+//arrow toggle
+
+function arrowFlip() {
+    var element = document.getElementById("arrow-down");
+    element.classList.toggle("active");
+}
