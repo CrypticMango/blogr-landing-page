@@ -336,6 +336,7 @@ footer a {
 		border-radius: 5px;
 		font-size: 15px;
 		width: 80px;
+		box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.445);
 	}
 
 	.subnav-content a {
@@ -407,7 +408,6 @@ footer a {
 	.arrow-down {
 		padding-left: 3px;
 		transition: transform 0.5s;
-  		
 	}
 
 	.active {

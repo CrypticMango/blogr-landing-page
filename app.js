@@ -35,11 +35,17 @@ navButtonThree.addEventListener("click", openNavThree);
 
 function openNavOne() {
     navSubmenuOne.style.display = "block";
+    navSubmenuTwo.style.display = "none";
+    navSubmenuThree.style.display = "none";
 }
 function openNavTwo() {
+    navSubmenuOne.style.display = "none";
     navSubmenuTwo.style.display = "block";
+    navSubmenuThree.style.display = "none";
 }
 function openNavThree() {
+    navSubmenuOne.style.display = "none";
+    navSubmenuTwo.style.display = "none";
     navSubmenuThree.style.display = "block";
 }
 
@@ -50,10 +56,3 @@ subNav.forEach((item) => {item.addEventListener("click", () => {
     navSubmenuTwo.style.display = "none";
     navSubmenuThree.style.display = "none";
 })})
-
-//arrow toggle
-
-function arrowFlip() {
-    var element = document.getElementById("arrow-down");
-    element.classList.toggle("active");
-}
