@@ -300,13 +300,15 @@ footer a {
 
 	header {
 		width: 100%;
+		background: url(/images/bg-pattern-intro-desktop.svg), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+		background-position: 30% 50%;
+		background-size: 3000px;
 	}
 	
 	ul {
 		margin: 0;
 		text-align: left;
 	}
-	
 
 	/*desktop nav start*/
 	
